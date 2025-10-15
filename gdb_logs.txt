@@ -1,0 +1,13 @@
+(No debugging symbols found in bin/a.out)
+(gdb) show commands
+   35  bt
+   36  bt
+   37  bt
+   38  p parser
+   39  run -t testcases/short1.rep
+   40  bt
+   41  p itr
+   42  p itr -> next
+   43  q
+   44  show commands
+(gdb) 

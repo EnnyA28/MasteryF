@@ -1,0 +1,500 @@
+   38  make debug
+   39  gdb mini_ci
+   40  make clean
+   41  ./mini_ci testcases/basic_add.s
+   42  make mini_ci
+   43  ./mini_ci testcases/basic_add.s
+   44  make clean
+   45  make
+   46  testcases/basic_add.s
+   47  ./mini_ci testcases/basic_add.s
+   48  make
+   49  ./mini_ci testcases/basic_add.s
+   50  ./mini_ci testcases/err_ops
+   51  make check
+   52  ./mini_ci testcases/err_op.s
+   53  ./mini_ci testcases/err_ops.s
+   54  make clean
+   55  make debug
+   56  gdb mini_ci
+   57  make clean
+   58  make
+   59  make check
+   60  make check
+   61  gdb mini_ci
+   62  pwd
+   63  touch ~/.gdbinit
+   64  echo "set history save on"
+   65  echo "set history save on" > ~/.gdbinit
+   66  pwd
+   67  ls
+   68  ls -a
+   69  pwd
+   70  mkdir MasterA
+   71  pwd
+   72  ls -a
+   73  cd MasterA
+   74  pwd
+   75  git clone git@github.com:EnnyA28/MasteryA.git
+   76  gdb mini_ci
+   77  make clean
+   78  make debug
+   79  gdb mini_ci
+   80  make clean
+   81  make check
+   82  make clean
+   83  make debug
+   84  make check
+   85  gdb mini_ci
+   86  make check
+   87  make clean
+   88  make check
+   89  ./mini_ci_refernce basic_add.s
+   90  ./mini_ci_reference basic_add.s
+   91  make check
+   92  make clean
+   93  make check
+   94  make clean
+   95  make check
+   96  make debug
+   97  gdb mini_ci
+   98  make debug
+   99  make clean
+  100  make debug
+  101  gdb mini_ci
+  102  make clean
+  103  make
+  104  make check
+  105  make clean
+  106  make debug
+  107  gdb mini_ci
+  108  make clean
+  109  make
+  110  make check
+  111  make clean
+  112  make debug
+  113  gdb mini_ci
+  114  make clean
+  115  make check
+  116              struct Token *val_b = head->next->next; 
+  117  make debug
+  118  make clean
+  119  make debug
+  120  gdb mini_ci
+  121  make clean
+  122  make check
+  123  make clean
+  124  make check
+  125  make clean
+  126  make check
+  127  make clean
+  128  make debug\
+  129  gdb mini_ci
+  130  make clean
+  131  make check
+  132  make clean
+  133  make check
+  134  make clean
+  135  make check
+  136  make clean
+  137  make check
+  138  make clean
+  139  make check
+  140  cat testcases/basic_add.s
+  141  make clean
+  142  make check
+  143  cat testcases/basic_add.s
+  144  make clean
+  145  make ./mini_ci testcases/basic_add.s
+  146  mini_ci testcases/basic_add.s
+  147  make 
+  148  ./mini_ci testcases/basic_add.s 
+  149  make clean
+  150  ./mini_ci testcases/basic_add.s 
+  151  make
+  152  ./mini_ci testcases/basic_add.s 
+  153  make clean && make
+  154  make debug
+  155  make clean
+  156  make debug
+  157  gdb mini_ci
+  158  make clean
+  159  make
+  160  make check
+  161  ./mini_ci_reference testcases/basic_add.s
+  162  make clean
+  163  make check
+  164  make clean
+  165  make
+  166  make check
+  167  make clean
+  168  make
+  169  make check
+  170  make clean
+  171  make check
+  172  make
+  173  make
+  174  make check
+  175  make clean
+  176  make
+  177  make check
+  178  make clean 
+  179  make
+  180  make check
+  181  make
+  182  chmod x ./mini_ci_reference
+  183  chmod + x ./mini_ci_reference
+  184  chmod +x ./mini_ci_reference
+  185  ls - ./mini_ci_reference 
+  186  ls -l ./mini_ci_reference
+  187  make check
+  188  make debug
+  189  make clean
+  190  make debug
+  191  gdb mini_ci
+  192  make clean
+  193  make
+  194  make check
+  195  make clean
+  196  make
+  197  make check
+  198  gdb mini_ci
+  199  make clean
+  200  make
+  201  make debug
+  202  make
+  203  make clean
+  204  make
+  205  make debug
+  206  make
+  207  make debug
+  208  make
+  209  git touch ~/.gdbinit
+  210  touch ~/.gdbinit
+  211  ls -a
+  212  echo "set history save on"
+  213  echo "set history save on" > ~/.gdbinit
+  214  ls -a
+  215  pwd
+  216  cat ~/.gdbinit
+  217  mkdir MasteryB
+  218  cd MasteryB
+  219  pwd
+  220  git clone git@github.com:EnnyA28/MasteryA.git
+  221  cd ..
+  222  pwd
+  223  rm -rf MasteryB
+  224  ls
+  225  mkdir MasteryB
+  226  git clone git@github.com:EnnyA28/MasteryB.git
+  227  make clean
+  228  make
+  229  make check
+  230  ls -l mini_ci_reference
+  231  chmod +x mini_ci_reference
+  232  ls -l mini_ci_reference
+  233  make check
+  234  chmod +x mini_ci_reference
+  235  make debug
+  236  make
+  237  make clean
+  238  make all
+  239  make
+  240  make debug
+  241  gdb mini_ci
+  242  make clean
+  243  make debug
+  244  gdb mini_ci
+  245  gdb mini_ci
+  246  make clean
+  247  make
+  248  make check
+  249  p val_b
+  250  make debug
+  251  make clean
+  252  make debug
+  253  gdb mini_ci
+  254  make clean
+  255  make
+  256  make check
+  257  make clean
+  258  make
+  259  make check
+  260  make clean
+  261  make
+  262  make check
+  263  make clean
+  264  make
+  265  make check
+  266  make debug
+  267  make clean
+  268  make debug
+  269  gdb mini_ci
+  270  make clean
+  271  make
+  272  make check
+  273  git add .
+  274  git commit -m "updated code"
+  275  git push
+  276  make
+  277  make check
+  278  history
+  279  history > shell_logs.txt
+  280  gdb mini_ci
+  281  y
+  282  make clean
+  283  make debug
+  284  gdb mini_ci
+  285  touch gdb_logs.txt
+  286  git status
+  287  git add .
+  288  git status
+  289  git commit -m "updated code"
+  290  git status\
+  291  git push
+  292  cd ..
+  293  rm -rf MasteryB
+  294  make clean
+  295  make
+  296  ls -l ./mini_ci_reference 
+  297  chmod -x ./mini_ci_reference
+  298  ls -l ./mini_ci_reference 
+  299  make check
+  300  chmod +x ./mini_ci_reference 
+  301  make check
+  302  touch LogFile.txt
+  303  shell_commands
+  304  commands
+  305  shell_command
+  306  show commands
+  307  show command
+  308  run install-mh
+  309  install -mh
+  310  make
+  311  make check
+  312  ls -a ./mini_ci_reference 
+  313  ls -l ./mini_ci_reference
+  314  chmod +x ./mini_ci_reference 
+  315  ls -a ./mini_ci_reference 
+  316  ls -l ./mini_ci_reference 
+  317  make check
+  318  make clean
+  319  make debug
+  320  gdb mini_ci
+  321  make clean
+  322  make
+  323  make check
+  324  history
+  325  history > shell_logs.txt
+  326  make clean
+  327  make debug
+  328  gdb mini_ci
+  329  touch gdb_logs.txt
+  330  git status
+  331  git add .
+  332  git commit -m "finished"
+  333  git status
+  334  git push
+  335  git status
+  336  cd ..
+  337  rm -rf MasteryC
+  338  make
+  339  make check
+  340  make clean
+  341  make debug
+  342  gdb mini_ci
+  343  chmod +x ./mini_ci_reference 
+  344  ls -a
+  345  ls -l ./mini_ci_reference 
+  346  make check
+  347  make clean
+  348  make
+  349  make clean
+  350  make debug
+  351  gdb mini_ci
+  352  make check
+  353  make clean
+  354  make debug
+  355  gdb mini_ci
+  356  make clean
+  357  make check
+  358  make clean
+  359  make
+  360  make check
+  361  make check
+  362  make clean
+  363  make
+  364  make check
+  365  make check
+  366  make clean
+  367  make
+  368  make check
+  369  make clean
+  370  make debug
+  371  gdb mini_ci
+  372  make check
+  373  make clean
+  374  make
+  375  make clean
+  376  make
+  377  make check
+  378  ls -l mini_ci_reference 
+  379  make clean
+  380  make 
+  381  make check
+  382  make clean
+  383  make check
+  384  make clean
+  385  make check
+  386  make clean
+  387  make check
+  388  make check
+  389  make clean
+  390  make
+  391  make check
+  392  make clean
+  393  make chexk
+  394  make check
+  395  make clean
+  396  make
+  397  make check
+  398  make clean
+  399  make
+  400  make check
+  401  make clean
+  402  make
+  403  make check
+  404  make clean
+  405  make
+  406  make check
+  407  history
+  408  history > shell_logs.txt
+  409  make clean
+  410  make debug
+  411  gdb mini_ci
+  412  touch gdb_logs.txt
+  413  git add .
+  414  git status
+  415  git commit -m "finished"
+  416  git push
+  417  cd ..
+  418  rm -rf MasteryE
+  419  touch ~/.gdbinit
+  420  ls
+  421  ls -l
+  422  ls -a
+  423  cat ~/.gdbinit
+  424  echo "set history save on"
+  425  echo "set history save on" > ~/.gdbinit
+  426  cat ~/.gdbinit
+  427  mkdir MasteryC
+  428  pwd
+  429  cd MasteryC
+  430  pwd
+  431  git@github.com:EnnyA28/MasteryC.git
+  432  git clone git@github.com:EnnyA28/MasteryC.git
+  433  touch ~/.gdbinit
+  434  pwd
+  435  ls
+  436  ls -a
+  437  cat ~/.gdbinit
+  438  echo "set history save on"
+  439  echo "set history save on" > ~/.gdbinit
+  440  cat ~/.gdbinit
+  441  mkdir MasteryE
+  442  ls
+  443  cd MasteryE
+  444  git clone git@github.com:EnnyA28/MasteryE.git
+  445  make
+  446  make a.out
+  447  make check
+  448  make clean
+  449  make debug
+  450  gdb a.out
+  451  gdb bin
+  452  make clean
+  453  make debug
+  454  gdb bin/a.out
+  455  make clean
+  456  make check
+  457  make clean
+  458  make
+  459  make check
+  460  make clean
+  461  make
+  462  make check
+  463  make debug
+  464  make clean
+  465  make debug
+  466  gdb bin/a.out
+  467  make check
+  468  make clean
+  469  make check
+  470  make clean
+  471  make check
+  472  make clean
+  473  make check
+  474  make clean
+  475  make check
+  476  make clean
+  477  make check
+  478  make clean
+  479  make check
+  480  make clean
+  481  make debug
+  482  gdb bin/a.out
+  483  make clean
+  484  make check
+  485  make clean
+  486  make check
+  487  make clean
+  488  make check
+  489  make clean
+  490  make
+  491  make check
+  492  make check
+  493  make check
+  494  make clean
+  495  make check
+  496  gdb bin/a.out
+  497  make clean
+  498  make check
+  499  gdb bin/a.out
+  500  gdb bin/a.out
+  501  make debug
+  502  make clean
+  503  make debug
+  504  gdb bin/a.out
+  505  make clean
+  506  make check
+  507  make clean
+  508  make check
+  509  make clean
+  510  make check
+  511  make clean
+  512  make check
+  513  make clean
+  514  make check
+  515  cat testcases/short5.rep
+  516  cat testcases/short2.rep
+  517  cat testcases/short3.rep./ref.out -t testcases/short5.rep
+  518  ./ref.out -t testcases/short5.rep
+  519  chmod +x ./ref.out
+  520  ./ref.out -t testcases/short5.rep
+  521  make clean
+  522  make check
+  523  ./ref.out -t testcases/short2.rep
+  524  ./ref.out -t testcases/short3.rep
+  525  make comp
+  526  make check
+  527  make comp
+  528  make clean
+  529  make comp
+  530  make clean
+  531  make comp
+  532  make clean
+  533  make comp
+  534  make clean
+  535  make comp
+  536  history
+  537  history > shell_logs.txt
